@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <>
-      <main className="h-[calc(100vh_-_81px)] max-h-[calc(100vh_-_81px)] overflow-hidden flex flex-col items-center justify-center relative">
+      <main className="h-[calc(100vh_-_81px)] max-h-[calc(100vh_-_81px)] overflow-hidden flex flex-col items-center justify-center relative bg-gradient-to-t from-black from-1% via-white via-50% md:via-30% to-white">
         <Image height={300} width={300} src='/static/images/web.PNG' alt='Spider web' className="hidden md:block absolute top-0 left-0" />
         <h2 className="md:text-lg mb-4">Caldervale High presents</h2>
         <Image width={0} height={0} sizes='100vw' className='w-[250px] md:w-[300px] h-auto' src='/static/images/logo-cropped-black.svg' alt='The Addams Family' />
