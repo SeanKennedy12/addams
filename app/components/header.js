@@ -21,7 +21,7 @@ export default function Header() {
                 <Sidebar toggleSidebar={toggleSidebar} sidebarOpen={sidebarOpen} />
             </div>
             <Link href='/'>
-                <Image width={100} height={100} src='/images/logo-cropped-white.svg' alt='logo' />
+                <Image width={100} height={100} src='/static/images/logo-cropped-white.svg' alt='logo' />
             </Link>
             <nav className='text-white hidden md:block'>
                 <Link href='/about' className='mr-6 relative pb-1 hover-underline-animation'>About the Show</Link>
