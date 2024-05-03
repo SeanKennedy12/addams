@@ -2,32 +2,136 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.spider {
+    position: absolute;
+    height: 0vh;
+    width: 1px;
+    top: 24px;
+    right: 0;
+    z-index: 1;
+    background-color: black;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.spider img {
+    position: relative;
+    width: 25px;
+    top: 0vh;
+    left: -12px;
+    display: none;
+}
+
+@keyframes spider-animation {
+    from {
+        height: 0vh;
+        width: 1px;
+    }
+
+    to {
+        height: 25vh;
+        width: 1px;
+    }
+}
+
+.spider-animation {
+    animation-name: spider-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spider-img-animation {
+    from {
+        top: 0vh;
+    }
+
+    to {
+        top: 23vh;
+    }
+}
+
+.spider-img-animation {
+    animation-name: spider-img-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+@keyframes smoke {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}
+
+@keyframes smoke-rise {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 0.8;
+        transform: translateY(-200px);
+    }
+}
+
+.smoke-layer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 80%);
+    border-radius: 50%;
+    animation: smoke-rise 20s ease-in-out infinite;
+}
+
+.smoke-layer:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.smoke-layer:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.smoke-layer:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.smoke-layer:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.smoke-layer:nth-child(5) {
+    animation-delay: 20s;
 }
