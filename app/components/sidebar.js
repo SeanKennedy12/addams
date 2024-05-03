@@ -13,7 +13,7 @@ export default function Sidebar({ toggleSidebar, sidebarOpen }) {
       <Link href='/cast' className='text-xl mb-3 text-white text-center' onClick={toggleSidebar}>Cast</Link>
       <Link href='/sponsors' className='text-xl mb-3 text-white text-center' onClick={toggleSidebar}>Our Sponsors</Link>
       <Link href='/contact' className='text-xl mb-3 text-white text-center' onClick={toggleSidebar}>Contact Us</Link>
-      <Link href='/buy' className='text-xl mb-3 text-white text-center' onClick={toggleSidebar}>Buy Tickets</Link>
+      <Link href='/buy-tickets' className='text-xl mb-3 text-white text-center' onClick={toggleSidebar}>Buy Tickets</Link>
     </div>
   )
 }
