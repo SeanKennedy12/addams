@@ -6,7 +6,7 @@ export default function About() {
     return (
         <>
             <main className='px-8 py-6'>
-                <h1 className='text-4xl font-semibold pb-6 text-center lg:text-left'>About the Show</h1>
+                <h1 className='text-4xl font-semibold pb-6 text-center'>About the Show</h1>
                 <div className='flex flex-col items-center lg:flex-row lg:items-start text-justify'>
                     <Image width={0} height={0} sizes='100vw' className='w-[100%] lg:w-[25vw] h-[auto]' src='/images/about-main.jpeg' alt='Main cast' />
                     <div className='pt-4 lg:pl-4 lg:pt-0'>
