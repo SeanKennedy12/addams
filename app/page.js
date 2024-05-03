@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
       <main className="h-[calc(100vh_-_81px)] max-h-[calc(100vh_-_81px)] overflow-hidden flex flex-col items-center justify-center relative">
-        <Image height={300} width={300} src='/images/web-2.png' alt='Spider web' className="hidden md:block absolute top-0 left-0" />
+        <Image height={300} width={300} src='/images/web.png' alt='Spider web' className="hidden md:block absolute top-0 left-0" />
         <h2 className="md:text-lg mb-4">Caldervale High presents</h2>
         <Image width={0} height={0} sizes='100vw' className='w-[250px] md:w-[300px] h-auto' src='images/logo-cropped-black.svg' alt='The Addams Family' />
         <Link href='/buy-tickets' className="border-2 border-black rounded px-4 md:px-6 py-2 md:py-4 mt-8">Buy Tickets</Link>
