@@ -30,6 +30,21 @@ export default function Cast() {
                 <div className='flex justify-center lg:mt-4'>
                     <Link href='/buy-tickets' className="border-2 border-black rounded px-4 md:px-6 py-2 md:py-4 mt-8">Buy Tickets</Link>
                 </div>
+                {/* Preload images */}
+                <div>
+                    <Image src='/static/images/portraits/Gomez_2.jpg' alt='Gomez Adams' className='hidden' />
+                    <Image src='/static/images/portraits/MorticiaA_2.jpg' alt='Morticia Adams' className='hidden' />
+                    <Image src='/static/images/portraits/WednesdayA_2.jpg' alt='Wednesday Adams' className='hidden' />
+                    <Image src='/static/images/portraits/Pugsley_2.jpg' alt='Pugsley Adams' className='hidden' />
+                    <Image src='/static/images/portraits/Uncle_2.jpg' alt='Uncle Fester' className='hidden' />
+                    <Image src='/static/images/portraits/Lurch_2.jpg' alt='Lurch' className='hidden' />
+                    <Image src='/static/images/portraits/GrandmaA_2.jpg' alt='Grandma' className='hidden' />
+                    <Image src='/static/images/portraits/Lucas_2.jpg' alt='Lucas' className='hidden' />
+                    <Image src='/static/images/portraits/?.jpg' alt='Mal' className='hidden' />
+                    <Image src='/static/images/portraits/Alice_2.jpg' alt='Alice' className='hidden' />
+                    <Image src='/static/images/portraits/MorticiaB_2.jpg' alt='Morticia Adams' className='hidden' />
+                    <Image src='/static/images/portraits/WednesdayB_2.jpg' alt='Wednesday Adams' className='hidden' />
+                </div>
             </main>
 
         </>
