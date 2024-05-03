@@ -27,9 +27,9 @@ export default function Cast() {
                     </section>
                     {/* Other Cast */}
                     <section className='grid md:grid-cols-3 gap-y-8 md:gap-y-12 justify-center md:justify-between mt-16'>
-                        <CastProfile img='/static/images/portraits/Conquistador_1.jpg' img2='/static/images/portraits/Conquistador_2.jpg' character='Conquistador' actor='Anna West' alt='Conquistador' />
-                        <CastProfile img='/static/images/portraits/MorticiaA_1.jpg' img2='/static/images/portraits/MorticiaA_2.jpg' character='Morticia Addams' actor='Erin Cameron' alt='Morticia Adams' />
-                        <CastProfile img='/static/images/portraits/WednesdayA_1.jpg' img2='/static/images/portraits/WednesdayA_2.jpg' character='Wednesday Addams' actor='Paige Brogan' alt='Wednesday Adams' />
+                        <CastProfile img='/static/images/portraits/Conquistador_1.jpg' img2='/static/images/portraits/Conquistador_2.jpg' character='Conquistador Ancestor' actor='Anna West' alt='Conquistador' />
+                        <CastProfile img='/static/images/portraits/Flapper_1.jpg' img2='/static/images/portraits/Flapper_2.jpg' character='Flapper Ancestor' actor='Eva McIlquham' alt='Flapper' />
+                        <CastProfile img='/static/images/portraits/Bride_1.jpg' img2='/static/images/portraits/Bride_2.jpg' character='Bride Ancestor' actor='Emma Rodgers' alt='Bride' />
                         <CastProfile img='/static/images/portraits/Pugsley_1.jpg' img2='/static/images/portraits/Pugsley_2.jpg' character='Pugsley Addams' actor='Kyle Chaplin' alt='Pugsley Adams' />
                         <CastProfile img='/static/images/portraits/Uncle_1.jpg' img2='/static/images/portraits/Uncle_2.jpg' character='Uncle Fester' actor='Jamie Prentice' alt='Uncle Fester' />
                         <CastProfile img='/static/images/portraits/Lurch_1.jpg' img2='/static/images/portraits/Lurch_2.jpg' character='Lurch' actor='Alasdair McLean' alt='Lurch' />
