@@ -20,7 +20,7 @@ export default function Cast() {
                         <CastProfile img='/static/images/portraits/Lurch_1.jpg' img2='/static/images/portraits/Lurch_2.jpg' character='Lurch' actor='Alasdair McLean' alt='Lurch' />
                         <CastProfile img='/static/images/portraits/GrandmaA_1.jpg' img2='/static/images/portraits/GrandmaA_2.jpg' character='Grandma' actor='Jessica O&apos;Toole' alt='Grandma' />
                         <CastProfile img='/static/images/portraits/Lucas_1.jpg' img2='/static/images/portraits/Lucas_2.jpg' character='Lucas' actor='Jack Harris' alt='Lucas' />
-                        <CastProfile img='/static/images/portraits/Mal_1.jpg' img2='/static/images/portraits/?.jpg' character='Mal' actor='Adam McLean' alt='Mal' />
+                        <CastProfile img='/static/images/portraits/D_1.jpg' img2='/static/images/portraits/D_2.jpg' character='Mal' actor='Adam McLean' alt='Mal' />
                         <CastProfile img='/static/images/portraits/Alice_1.jpg' img2='/static/images/portraits/Alice_2.jpg' character='Alice' actor='Eden Hardie' alt='Alice' />
                         <CastProfile img='/static/images/portraits/MorticiaB_1.jpg' img2='/static/images/portraits/MorticiaB_2.jpg' character='Morticia Addams' actor='Chloe Miller' alt='Morticia Adams' />
                         <CastProfile img='/static/images/portraits/WednesdayB_1.jpg' img2='/static/images/portraits/WednesdayB_2.jpg' character='Wednesday Addams' actor='Alecia Dalziel' alt='Wednesday Adams' />
@@ -32,18 +32,18 @@ export default function Cast() {
                 </div>
                 {/* Preload images */}
                 <div>
-                    <Image src='/static/images/portraits/Gomez_2.jpg' alt='Gomez Adams' className='hidden' />
-                    <Image src='/static/images/portraits/MorticiaA_2.jpg' alt='Morticia Adams' className='hidden' />
-                    <Image src='/static/images/portraits/WednesdayA_2.jpg' alt='Wednesday Adams' className='hidden' />
-                    <Image src='/static/images/portraits/Pugsley_2.jpg' alt='Pugsley Adams' className='hidden' />
-                    <Image src='/static/images/portraits/Uncle_2.jpg' alt='Uncle Fester' className='hidden' />
-                    <Image src='/static/images/portraits/Lurch_2.jpg' alt='Lurch' className='hidden' />
-                    <Image src='/static/images/portraits/GrandmaA_2.jpg' alt='Grandma' className='hidden' />
-                    <Image src='/static/images/portraits/Lucas_2.jpg' alt='Lucas' className='hidden' />
-                    <Image src='/static/images/portraits/?.jpg' alt='Mal' className='hidden' />
-                    <Image src='/static/images/portraits/Alice_2.jpg' alt='Alice' className='hidden' />
-                    <Image src='/static/images/portraits/MorticiaB_2.jpg' alt='Morticia Adams' className='hidden' />
-                    <Image src='/static/images/portraits/WednesdayB_2.jpg' alt='Wednesday Adams' className='hidden' />
+                    <Image src='/static/images/portraits/Gomez_2.jpg' width={200} height={200} alt='Gomez Adams' className='hidden' />
+                    <Image src='/static/images/portraits/MorticiaA_2.jpg' width={200} height={200} alt='Morticia Adams' className='hidden' />
+                    <Image src='/static/images/portraits/WednesdayA_2.jpg' width={200} height={200} alt='Wednesday Adams' className='hidden' />
+                    <Image src='/static/images/portraits/Pugsley_2.jpg' width={200} height={200} alt='Pugsley Adams' className='hidden' />
+                    <Image src='/static/images/portraits/Uncle_2.jpg' width={200} height={200} alt='Uncle Fester' className='hidden' />
+                    <Image src='/static/images/portraits/Lurch_2.jpg' width={200} height={200} alt='Lurch' className='hidden' />
+                    <Image src='/static/images/portraits/GrandmaA_2.jpg' width={200} height={200} alt='Grandma' className='hidden' />
+                    <Image src='/static/images/portraits/Lucas_2.jpg' width={200} height={200} alt='Lucas' className='hidden' />
+                    <Image src='/static/images/portraits/D_2.jpg' width={200} height={200} alt='Mal' className='hidden' />
+                    <Image src='/static/images/portraits/Alice_2.jpg' width={200} height={200} alt='Alice' className='hidden' />
+                    <Image src='/static/images/portraits/MorticiaB_2.jpg' width={200} height={200} alt='Morticia Adams' className='hidden' />
+                    <Image src='/static/images/portraits/WednesdayB_2.jpg' width={200} height={200} alt='Wednesday Adams' className='hidden' />
                 </div>
             </main>
 
