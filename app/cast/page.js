@@ -12,7 +12,7 @@ export default function Cast() {
                 <div>
                     {/* Main Cast */}
                     <section className='grid md:grid-cols-2 gap-y-8 md:gap-y-12 justify-center md:justify-between'>
-                        <CastProfile img='/static/images/portraits/Gomez_1.jpg' img2='/static/images/portraits/Gomez_2.jpg' character='Gomez Addams' actor='Scott Taylor' alt='Gomez Adams' />
+                        <CastProfile img='/static/images/portraits-compressed/Gomez_1.jpg' img2='/static/images/portraits-compressed/Gomez_2.jpg' character='Gomez Addams' actor='Scott Taylor' alt='Gomez Adams' />
                         <CastProfile img='/static/images/portraits/MorticiaA_1.jpg' img2='/static/images/portraits/MorticiaA_2.jpg' character='Morticia Addams' actor='Erin Cameron' alt='Morticia Adams' />
                         <CastProfile img='/static/images/portraits/WednesdayA_1.jpg' img2='/static/images/portraits/WednesdayA_2.jpg' character='Wednesday Addams' actor='Paige Brogan' alt='Wednesday Adams' />
                         <CastProfile img='/static/images/portraits/Pugsley_1.jpg' img2='/static/images/portraits/Pugsley_2.jpg' character='Pugsley Addams' actor='Kyle Chaplin' alt='Pugsley Adams' />
@@ -21,7 +21,7 @@ export default function Cast() {
                         <CastProfile img='/static/images/portraits/GrandmaA_1.jpg' img2='/static/images/portraits/GrandmaA_2.jpg' character='Grandma' actor='Jessica O&apos;Toole' alt='Grandma' />
                         <CastProfile img='/static/images/portraits/Lucas_1.jpg' img2='/static/images/portraits/Lucas_2.jpg' character='Lucas' actor='Jack Harris' alt='Lucas' />
                         <CastProfile img='/static/images/portraits/D_1.jpg' img2='/static/images/portraits/D_2.jpg' character='Mal' actor='Adam McLean' alt='Mal' />
-                        <CastProfile img='/static/images/portraits/Alice_1.jpg' img2='/static/images/portraits/Alice_2.jpg' character='Alice' actor='Eden Hardie' alt='Alice' />
+                        <CastProfile img='/static/images/portraits-compressed/Alice_1.jpg' img2='/static/images/portraits-compressed/Alice_2.jpg' character='Alice' actor='Eden Hardie' alt='Alice' />
                         <CastProfile img='/static/images/portraits/MorticiaB_1.jpg' img2='/static/images/portraits/MorticiaB_2.jpg' character='Morticia Addams' actor='Chloe Miller' alt='Morticia Adams' />
                         <CastProfile img='/static/images/portraits/WednesdayB_1.jpg' img2='/static/images/portraits/WednesdayB_2.jpg' character='Wednesday Addams' actor='Alecia Dalziel' alt='Wednesday Adams' />
                     </section>
