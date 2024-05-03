@@ -27,7 +27,7 @@ export default function Cast() {
                     </section>
                     {/* Other Cast */}
                     <section className='grid md:grid-cols-3 gap-y-8 md:gap-y-12 justify-center md:justify-between mt-16'>
-                        <CastProfile img='/static/images/portraits-compressed/Gomez_1.jpg' img2='/static/images/portraits-compressed/Gomez_2.jpg' character='Gomez Addams' actor='Scott Taylor' alt='Gomez Adams' />
+                        <CastProfile img='/static/images/portraits/Conquistador_1.jpg' img2='/static/images/portraits/Conquistador_2.jpg' character='Conquistador' actor='Anna West' alt='Conquistador' />
                         <CastProfile img='/static/images/portraits/MorticiaA_1.jpg' img2='/static/images/portraits/MorticiaA_2.jpg' character='Morticia Addams' actor='Erin Cameron' alt='Morticia Adams' />
                         <CastProfile img='/static/images/portraits/WednesdayA_1.jpg' img2='/static/images/portraits/WednesdayA_2.jpg' character='Wednesday Addams' actor='Paige Brogan' alt='Wednesday Adams' />
                         <CastProfile img='/static/images/portraits/Pugsley_1.jpg' img2='/static/images/portraits/Pugsley_2.jpg' character='Pugsley Addams' actor='Kyle Chaplin' alt='Pugsley Adams' />
@@ -44,21 +44,6 @@ export default function Cast() {
 
                 <div className='flex justify-center lg:mt-4'>
                     <Link href='/buy-tickets' className="border-2 border-black rounded px-4 md:px-6 py-2 md:py-4 mt-8">Buy Tickets</Link>
-                </div>
-                {/* Preload images */}
-                <div>
-                    <Image src='/static/images/portraits/Gomez_2.jpg' width={200} height={200} alt='Gomez Adams' className='hidden' />
-                    <Image src='/static/images/portraits/MorticiaA_2.jpg' width={200} height={200} alt='Morticia Adams' className='hidden' />
-                    <Image src='/static/images/portraits/WednesdayA_2.jpg' width={200} height={200} alt='Wednesday Adams' className='hidden' />
-                    <Image src='/static/images/portraits/Pugsley_2.jpg' width={200} height={200} alt='Pugsley Adams' className='hidden' />
-                    <Image src='/static/images/portraits/Uncle_2.jpg' width={200} height={200} alt='Uncle Fester' className='hidden' />
-                    <Image src='/static/images/portraits/Lurch_2.jpg' width={200} height={200} alt='Lurch' className='hidden' />
-                    <Image src='/static/images/portraits/GrandmaA_2.jpg' width={200} height={200} alt='Grandma' className='hidden' />
-                    <Image src='/static/images/portraits/Lucas_2.jpg' width={200} height={200} alt='Lucas' className='hidden' />
-                    <Image src='/static/images/portraits/D_2.jpg' width={200} height={200} alt='Mal' className='hidden' />
-                    <Image src='/static/images/portraits/Alice_2.jpg' width={200} height={200} alt='Alice' className='hidden' />
-                    <Image src='/static/images/portraits/MorticiaB_2.jpg' width={200} height={200} alt='Morticia Adams' className='hidden' />
-                    <Image src='/static/images/portraits/WednesdayB_2.jpg' width={200} height={200} alt='Wednesday Adams' className='hidden' />
                 </div>
             </main>
 
