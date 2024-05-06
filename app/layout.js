@@ -14,10 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      {/* <Head>
         <Script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></Script>
         <Script src="/components/myscript.js"></Script>
-      </Head>
+      </Head> */}
       <body className={inter.className}>
         <Header />
         {children}
