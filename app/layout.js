@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+        <script src="/components/myscript.js"></script>
+      </Head>
       <body className={inter.className}>
         <Header />
         {children}

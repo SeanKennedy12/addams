@@ -7,8 +7,23 @@ export default function Contact() {
         <>
             <main className='px-8 py-6'>
                 <h1 className='text-4xl font-semibold pb-6 text-center'>Contact Us</h1>
+                <div className='border-2 border-black p-4 md:p-6 w-full lg:w-[50%] mx-auto rounded'>
+                    <p className='pb-2'>If you have any queries, please don't hesitate to get in touch!</p>
+                    {/* Check Email */}
+                    <p className='font-medium'>Email: <a href='mailto:boxoffice@caldervale-show.com' className='text-blue-600' >BoxOffice@Caldervale-Show.com</a></p>
+                    <p className='font-medium'>Phone: <a href='tel:01236 794855' className='text-blue-600'>01236 794855</a></p>
+                    <div className='flex'>
+                        <p className='font-medium'>Address:</p>
+                        <div className='ml-2'>
+                            <p>Caldervale High School</p>
+                            <p>Towes Road</p>
+                            <p>Airdrie</p>
+                            <p>ML6 8HW</p>
+                        </div>
+                    </div>
 
-            </main>
+                </div>
+            </main >
 
         </>
     )

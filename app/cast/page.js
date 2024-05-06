@@ -20,7 +20,7 @@ export default function Cast() {
                         <CastProfile img='/static/images/portraits/Lurch_1.jpg' img2='/static/images/portraits/Lurch_2.jpg' character='Lurch' actor='Alasdair McLean' alt='Lurch' id1='lurch-1' id2='lurch-2' />
                         <CastProfile img='/static/images/portraits/GrandmaA_1.jpg' img2='/static/images/portraits/GrandmaA_2.jpg' character='Grandma' actor='Jessica O&apos;Toole' alt='Grandma' id1='grandmaA-1' id2='grandmaA-2' />
                         <CastProfile img='/static/images/portraits/Lucas_1.jpg' img2='/static/images/portraits/Lucas_2.jpg' character='Lucas' actor='Jack Harris' alt='Lucas' id1='lucas-1' id2='lucas-2' />
-                        <CastProfile img='/static/images/portraits/D_1.jpg' img2='/static/images/portraits/D_2.jpg' character='Mal' actor='Adam McLean' alt='Mal' id1='mal-1' id2='mal-2' />
+                        <CastProfile img='/static/images/portraits/Mal_1.jpg' img2='/static/images/portraits/Mal_2.jpg' character='Mal' actor='Adam McLean' alt='Mal' id1='mal-1' id2='mal-2' />
                         <CastProfile img='/static/images/portraits/Alice_1.jpg' img2='/static/images/portraits/Alice_2.jpg' character='Alice' actor='Eden Hardie' alt='Alice' id1='alice-1' id2='alice-2' />
                         <CastProfile img='/static/images/portraits/MorticiaB_1.jpg' img2='/static/images/portraits/MorticiaB_2.jpg' character='Morticia Addams' actor='Chloe Miller' alt='Morticia Adams' id1='morticiaB-1' id2='morticiaB-2' />
                         <CastProfile img='/static/images/portraits/WednesdayB_1.jpg' img2='/static/images/portraits/WednesdayB_2.jpg' character='Wednesday Addams' actor='Alecia Dalziel' alt='Wednesday Adams' id1='wednesdayB-1' id2='wednesdayB-2' />
@@ -36,6 +36,15 @@ export default function Cast() {
                         <CastProfile img='/static/images/portraits/Caveman_1.jpg' img2='/static/images/portraits/Caveman_2.jpg' character='Caveman Ancestor' actor='Brooke Stanners' alt='Caveman' id1='caveman-1' id2='caveman-2' />
                         <CastProfile img='/static/images/portraits/Puritan_1.jpg' img2='/static/images/portraits/Puritan_2.jpg' character='Puritan Ancestor' actor='Gavin Torrance' alt='Puritan' id1='puritan-1' id2='puritan-2' />
                         <CastProfile img='/static/images/portraits/Saloon_1.jpg' img2='/static/images/portraits/Saloon_2.jpg' character='Saloon Ancestor' actor='Cara Hunter' alt='Saloon' id1='saloon-1' id2='saloon-2' />
+                        <CastProfile img='/static/images/portraits/A_1.jpg' img2='/static/images/portraits/A_2.jpg' character='Ancestor?' actor='-' alt='Ancestor' id1='A_1-1' id2='A_2-2' />
+                        <CastProfile img='/static/images/portraits/B_1.jpg' img2='/static/images/portraits/B_2.jpg' character='Ancestor?' actor='-' alt='Ancestor' id1='B_1-1' id2='B_2-2' />
+                        <CastProfile img='/static/images/portraits/C_1.jpg' img2='/static/images/portraits/C_2.jpg' character='Ancestor?' actor='-' alt='Ancestor' id1='C_1-1' id2='C_2-2' />
+                        <CastProfile img='/static/images/portraits/D_1.jpg' img2='/static/images/portraits/D_2.jpg' character='Ancestor?' actor='-' alt='Ancestor' id1='D_1-1' id2='D_2-2' />
+                        <CastProfile img='/static/images/portraits/E_1.jpg' img2='/static/images/portraits/E_2.jpg' character='Ancestor?' actor='-' alt='Ancestor' id1='E_1-1' id2='E_2-2' />
+                        <CastProfile img='/static/images/portraits/F_1.jpg' img2='/static/images/portraits/F_2.jpg' character='Ancestor?' actor='-' alt='Ancestor' id1='F_1-1' id2='F_2-2' />
+                        <CastProfile img='/static/images/portraits/G_1.jpg' img2='/static/images/portraits/G_2.jpg' character='Ancestor?' actor='-' alt='Ancestor' id1='G_1-1' id2='G_2-2' />
+                        <CastProfile img='/static/images/portraits/H_1.jpg' img2='/static/images/portraits/H_2.jpg' character='Ancestor?' actor='-' alt='Ancestor' id1='H_1-1' id2='H_2-2' />
+                        <CastProfile img='/static/images/portraits/I_1.jpg' img2='/static/images/portraits/I_2.jpg' character='Ancestor?' actor='-' alt='Ancestor' id1='I_1-1' id2='I_2-2' />
                     </section>
                 </div>
 
