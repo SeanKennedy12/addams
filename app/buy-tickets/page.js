@@ -14,7 +14,7 @@ export default function BuyTickets() {
                 <h1 className='text-4xl font-semibold pb-6 text-center'>Buy Tickets</h1>
                 <div id="eventbrite-widget-container-887221572607"></div>
             </main>
-            <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js" strategy="beforeInteractive"></script>
+            <Script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js" strategy="beforeInteractive"></Script>
             <Script id='inline'>
                 {`
                
