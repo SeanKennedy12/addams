@@ -29,8 +29,8 @@ export default function About() {
                         <p>Step right up and try your luck at the eerie allure of the tombola, adding an extra layer of excitement to your evening at THE ADDAMS FAMILY show. With each ticket purchased, anticipation builds as you await the chance to win an assortment of mysterious prizes lurking within the depths of the tombola&apos;s swirling depths. Will you uncover a curious trinket from the Addams&apos; own collection or perhaps a peculiar relic with a story all its own? As the tombola spins and rattles, casting shadows against the dimly lit backdrop, every pull of the lever brings the thrill of the unknown closer, weaving an enchanting thread of suspense into the fabric of the evening. So, join in the fun and embrace the thrill of uncertainty as you partake in the tombola experience, adding a touch of mystique to your unforgettable night with THE ADDAMS FAMILY.</p>
                     </div>
                 </div>
-                <div className='flex justify-center lg:mt-4'>
-                    <Link href='/buy-tickets' className="border-2 border-black rounded px-4 md:px-6 py-2 md:py-4 mt-8">Buy Tickets</Link>
+                <div className='flex flex-col items-center justify-center lg:mt-4'>
+                    <Link href='/buy-tickets' className="border-2 border-black rounded px-4 md:px-6 py-2 md:py-4 mt-8 button__left-right">Buy Tickets</Link>
                 </div>
             </main>
 

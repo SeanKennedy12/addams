@@ -15,7 +15,7 @@ export default function BuyTickets() {
                 <div id="eventbrite-widget-container-887221572607"></div>
             </main>
             <Script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js" strategy="beforeInteractive"></Script>
-            <Script id='inline'>
+            <Script id='inline' strategy='lazyOnload'>
                 {`
                
 var exampleCallback = function () {
