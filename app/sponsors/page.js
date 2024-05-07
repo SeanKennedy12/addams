@@ -25,6 +25,14 @@ export default function BuyTickets() {
                         </div>
                     </div>
                     <div className='bg-white shadow-md rounded-lg overflow-hidden'>
+                        <Image src='/static/images/scott-currie.png' width={500} height={500} alt='Scott Currie Music' />
+                        <div className='p-4'>
+                            <h1 className='text-xl font-semibold'>Scott Currie Music</h1>
+                            <p className='text-gray-600'>Shop online and in-store at our Coatbridge showroom for guitars, drum kits, marching drums, bagpipes and musical instrument accessories.</p>
+                            <a href='https://www.carnbroeschoolofmotoring.co.uk/' className='block bg-gray-900 text-white px-4 py-2 rounded mt-2 text-center' target='_blank'>Learn More</a>
+                        </div>
+                    </div>
+                    <div className='bg-white shadow-md rounded-lg overflow-hidden'>
                         <Image src='/static/images/carnbroe.png' width={500} height={500} alt='Carnbroe School of Motoring' />
                         <div className='p-4'>
                             <h1 className='text-xl font-semibold'>Carnbroe School of Motoring</h1>
