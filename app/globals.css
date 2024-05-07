@@ -87,3 +87,8 @@
     background-position: left;
     color: #fff;
 }
+
+.main-page-div {
+    height: calc(100vh - 81px);
+    max-height: calc(100vh - 81px);
+}
