@@ -34,7 +34,7 @@ export default function BuyTickets() {
                     </div>
                 </div>
                 <div className='flex flex-col items-center justify-center lg:mt-4'>
-                    <Link href='/buy-tickets' className="border-2 border-black rounded px-4 md:px-6 py-2 md:py-4 mt-8 button__left-right">Buy Tickets</Link>
+                    <Link href='/buy-tickets' className="border-2 border-black rounded px-4 md:px-6 py-2 md:py-4 mt-8 hover:scale-105 transition-all">Buy Tickets</Link>
                 </div>
             </main>
 

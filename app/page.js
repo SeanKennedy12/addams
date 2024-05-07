@@ -32,7 +32,7 @@ export default function Home() {
         <Image height={300} width={300} src='/static/images/web.PNG' alt='Spider web' className="hidden md:block absolute top-0 left-0" />
         <h2 className="md:text-lg mb-4">Caldervale High presents</h2>
         <Image width={0} height={0} sizes='100vw' className='w-[250px] md:w-[300px] h-auto' src='/static/images/logo-cropped-black.svg' alt='The Addams Family' />
-        <Link href='/buy-tickets' className="border-2 border-black rounded px-4 md:px-6 py-2 md:py-4 mt-8 button__left-right">Buy Tickets</Link>
+        <Link href='/buy-tickets' className="border-2 border-black rounded px-4 md:px-6 py-2 md:py-4 mt-8 hover:scale-105 transition-all">Buy Tickets</Link>
         <Image width={0} height={0} sizes='100vw' className='w-[auto] h-[100vh] absolute bottom-[-280px] right-[-170px] hidden md:hidden' src='/static/images/spider-crawling-across-270.gif' id="crawling-spider" alt='Spider' />
       </main>
     </>

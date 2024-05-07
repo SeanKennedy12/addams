@@ -1,9 +1,6 @@
 'use client';
 
 import React from 'react';
-import Image from "next/image";
-import Link from 'next/link';
-import Head from 'next/head';
 import Script from 'next/script';
 
 export default function BuyTickets() {
@@ -17,8 +14,7 @@ export default function BuyTickets() {
             <Script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js" strategy="beforeInteractive"></Script>
             <Script id='inline'>
                 {`
-               
-var exampleCallback = function () {
+  var exampleCallback = function() {
     console.log('Order complete!');
 };
 
